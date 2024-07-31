@@ -1,0 +1,25 @@
+.card{
+    background-color: rgb(227, 238, 238);
+}
+hr{
+    background: none;
+}
+h5{
+    font-size: 2rem;
+    color:plum;
+} 
+h1{
+    font-size: 5rem;
+    margin-left: 25rem;
+    font-style: italic;
+    color:antiquewhite;
+}
+.card {
+    transition: transform 300ms;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(0.9); 
+}
+

@@ -1,0 +1,25 @@
+body {
+    background-color: #bcc1c3;;
+}
+
+
+.logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+   margin-right: 100%;
+   margin-top: 1px;
+   
+}
+.card{
+    display: flex;
+    object-fit: contain;
+} 
+.card {
+    transition: transform 300ms;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(0.9); 
+}

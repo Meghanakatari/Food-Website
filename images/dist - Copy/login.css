@@ -1,0 +1,26 @@
+
+@import url('https://fonts.gogle.com/css2?family=poppins&display=swap');
+body{
+    font-family: 'poppins',sans-serif;
+    background-image:radial-gradient(80.75% 10.88% at 0.39% 99.26%, rgba(170, 170, 184, 0.4) 1.42%, rgba(60, 60, 69, 0.51) 53.8%, rgba(206, 206, 218, 0) 100%), linear-gradient(8.24deg, #272023 14.75%, rgba(149, 157, 175, 0.48)),url(images/1324879.webp);
+    background-size: cover;
+}
+.content{
+    height: 100vh;
+}
+.form-check-input:checked{
+    background: #5099b9;
+    border-color: #5781a8;
+    
+}
+.btn-dark{
+    background: #87989d !important;
+}
+.fa{
+    padding: 11px;
+    width: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 3px;
+    border-radius: 50%;
+}
